@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quidem dolores asperiores illum sint consectetur omnis unde sunt deserunt consequuntur ipsum</p>
+            <div class="social-media">
+                <a href="#"><img src="yt.png"></a>
+                <a href="#"><img src="fb.png"></a>
+                <a href="#"><img src="insta.png"></a>
+                <a href="#"><img src="twitter.png"></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img.avif" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img.avif" alt="">
+
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem molestiae quas sed voluptates deserunt esse saepe. Quae tenetur exercitationem fugit quidem et corrupti nulla dolorem ab debitis maxime! Id, doloribus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga suscipit quo omnis autem dolorum praesentium numquam et tempora! Ex quisquam provident vero, repellat quis consectetur molestias illo eius laborum aspernatur.
+
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container" >
+           <div class="services-box">
+            <h3>Web Development</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae hic minus repellat distinctio fugiat, rerum aspernatur eos, explicabo libero est iste. Optio sequi illum ipsum! Aliquid aut possimus deserunt enim.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+        <div class="services-container" >
+           <div class="services-box">
+            <h3>Backend Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae hic minus repellat distinctio fugiat, rerum aspernatur eos, explicabo libero est iste. Optio sequi illum ipsum! Aliquid aut possimus deserunt enim.</p>
+            <a href="#" class="btn">Read More</a>
+        </div></div>
+    </section>
+
+    <section class="portfolio " id="portfolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="services-box">
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam necessitatibus tenetur voluptatibus non excepturi adipisci repudiandae. 
+                    </p>
+                    <a href="#" ><img src="send-solid-24.png" alt=""></a>
+                </div>
+            </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam necessitatibus tenetur voluptatibus non excepturi adipisci repudiandae. 
+                    </p>
+                    <a href="#" ><img src="send.png" alt=""></a>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam necessitatibus tenetur voluptatibus non excepturi adipisci repudiandae. 
+                    </p>
+                    <a href="#" > <img src="send.png" alt=""></a>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam necessitatibus tenetur voluptatibus non excepturi adipisci repudiandae. 
+                    </p>
+                    <a href="#" ><img src="send.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+                 </section>
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Us</span></h2>
+        <form id="contact-form">
+
+            <div class="input-box">
+                <input id="name" type="text" placeholder="Full Name" required>
+                <input id="email"  type="email" placeholder="Email Address" required>
+
+            </div>
+            <div class="input-box">
+                <input  id="number"  type="number" placeholder="Mobile Number" required>
+                <input id="title" type="text" placeholder="Email Subject" required>
+                
+            </div>
+            <textarea  id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
+            <input type="submit" value="Send message" class="btn">
+        </form>
+
+        </section>
+
+    
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy;2024 by codehal |All Rights Reserved.</p>
+    </div>
+</footer>
+    <script src="portfolio.js"> </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function() {
+    // Initialize EmailJS with your PUBLIC KEY
+    emailjs.init("yIktbpdUXhm5ATQUg");  // Example: "M93c7YJkRzT12p"
+  })();
+
+  // Send form data
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.send("service_kzm0vyf", "template_6vnwpqk", {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      title: document.getElementById("title").value,
+      message: document.getElementById("message").value
+    })
+    .then(function(response) {
+      alert("✅ Message sent successfully!");
+      document.getElementById("contact-form").reset();
+    }, function(error) {
+      alert("❌ Failed to send message. Please try again later.");
+      console.error(error);
+    });
+  });
+</script>
+
+</html>
